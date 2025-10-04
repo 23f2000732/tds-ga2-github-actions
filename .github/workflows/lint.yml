@@ -1,9 +1,10 @@
 name: Say My Name
 
-on: [ push ]
+on: [push]
     
 jobs:
   say-my-name:
+    runs-on: ubuntu-latest
     steps:
       - name: 23f2000732@ds.study.iitm.ac.in
         run: echo "Anusha Saha"
